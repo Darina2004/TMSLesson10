@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TMSLesson9" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9X-IG-tzV">
+                                <rect key="frame" x="106" y="127" width="180" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="mGH-rp-ReU"/>
+                                    <constraint firstAttribute="height" constant="166" id="s0U-gr-dlB"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="" backgroundImage="w256h2561377930292cattied"/>
+                                <connections>
+                                    <action selector="NextButtonCats:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wWj-dx-N9P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIt-jL-fbs">
+                                <rect key="frame" x="106" y="587" width="180" height="173"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="173" id="E07-IP-IVu"/>
+                                    <constraint firstAttribute="width" constant="180" id="QIR-dw-xIf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="igra-igrushechnaja-mashinka"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="NextButtonCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xpy-gv-Yc3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfi-Pc-Me9">
+                                <rect key="frame" x="106" y="318" width="180" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="G00-bZ-4Gl"/>
+                                    <constraint firstAttribute="height" constant="206" id="kfe-Cg-tOr"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="" backgroundImage="1639846668_8-abrakadabra-fun-p-tsvetnie-kvadrati-ikonki-8"/>
+                                <connections>
+                                    <action selector="NextButtonSquare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SOD-0j-4vb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="R9X-IG-tzV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="68" id="15n-3X-Rzb"/>
+                            <constraint firstItem="lfi-Pc-Me9" firstAttribute="top" secondItem="R9X-IG-tzV" secondAttribute="bottom" constant="30" id="1TA-Xp-tFH"/>
+                            <constraint firstItem="lfi-Pc-Me9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="6fZ-mY-5a6"/>
+                            <constraint firstItem="QIt-jL-fbs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="B4P-qh-6Lh"/>
+                            <constraint firstItem="lfi-Pc-Me9" firstAttribute="top" secondItem="R9X-IG-tzV" secondAttribute="bottom" constant="25" id="IOl-eb-kTO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QIt-jL-fbs" secondAttribute="bottom" constant="58" id="SH3-GU-fcc"/>
+                            <constraint firstItem="QIt-jL-fbs" firstAttribute="top" secondItem="lfi-Pc-Me9" secondAttribute="bottom" constant="58" id="Sz2-mQ-6Ff"/>
+                            <constraint firstItem="R9X-IG-tzV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="fjA-VC-H15"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QIt-jL-fbs" secondAttribute="trailing" constant="107" id="mvE-E3-SxK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R9X-IG-tzV" secondAttribute="trailing" constant="107" id="pma-1z-k16"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lfi-Pc-Me9" secondAttribute="trailing" constant="107" id="qCO-VM-fs0"/>
+                            <constraint firstItem="QIt-jL-fbs" firstAttribute="top" secondItem="R9X-IG-tzV" secondAttribute="bottom" constant="294" id="uFX-H2-k9e"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1639846668_8-abrakadabra-fun-p-tsvetnie-kvadrati-ikonki-8" width="1030" height="1145"/>
+        <image name="igra-igrushechnaja-mashinka" width="200" height="200"/>
+        <image name="w256h2561377930292cattied" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
